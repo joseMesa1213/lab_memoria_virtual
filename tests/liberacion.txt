@@ -1,0 +1,19 @@
+# Asignación, escritura, liberación, reutilización y accesos inválidos
+alloc 10000
+alloc 4096
+write 0 11
+write 8191 22
+write 12288 33
+read 8191
+free 0
+read 0
+free 0
+free 5
+alloc 5000
+read 0
+write 4095 7
+read 4095
+read 12288
+read 0xFFFFF000
+write 16 300
+jump 0

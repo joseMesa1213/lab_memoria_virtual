@@ -1,0 +1,15 @@
+# Anomalía de Belady: referencias 1 2 3 4 1 2 5 1 2 3 4 5
+# Páginas de 128K: la página n se ubica en la dirección (n-1) * 131072
+alloc 655360
+read 0
+read 131072
+read 262144
+read 393216
+read 0
+read 131072
+read 524288
+read 0
+read 131072
+read 262144
+read 393216
+read 524288

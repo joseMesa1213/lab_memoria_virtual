@@ -1,0 +1,4 @@
+build/
+vmsim
+gen_trace
+.DS_Store

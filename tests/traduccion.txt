@@ -1,0 +1,5 @@
+# Verifica la descomposición PT1 | PT2 | Offset
+alloc 0x800000
+write 0x00403ABC 77
+read 0x00403ABC
+read 0x007FFFFF
